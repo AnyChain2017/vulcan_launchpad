@@ -6,6 +6,7 @@ import "./globals.css";
 import "@rainbow-me/rainbowkit/styles.css";
 import 'react-quill/dist/quill.snow.css';
 import "react-time-picker-typescript/dist/style.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -41,6 +42,7 @@ export default function RootLayout({
           <Provider>
             <Layout>
               {children}
+              <SpeedInsights />
             </Layout>
           </Provider>
       </body>
