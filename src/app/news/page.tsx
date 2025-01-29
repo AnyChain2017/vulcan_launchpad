@@ -1,6 +1,14 @@
 "use client";
 import React from "react";
 import Header from "@/components/dashboard/header";
+// import { Icon } from "@iconify/react/dist/iconify.js";
+// import InputInfo from "@/components/dashboard/create/atoms/infoInput";
+// import dynamic from "next/dynamic";
+// import Image from "next/image";
+// const Description = dynamic(() => import("@/components/dashboard/create/atoms/descriptionInput"), {ssr: false});
+
+
+
 
 
 const Evangilists = () => {
@@ -63,6 +71,7 @@ const Evangilists = () => {
           title="Bio"
           className="mt-5 bio"
           placeholder="*Enter Bio..."
+          info="what' your short description"
           value={bio}
           onChange={(value: string) => setBio(value)}
           isInvalid={isInvalid}
