@@ -1,76 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vulcan Launchpad
 
-```
-                           #                           
-                   %       %%                          
-                   %%%#     %%%                        
-         +         #%%%     %%%%%%                        
-        %%#         #%      %%%%%%%       %              
-       %%%%                %%%%%%%%%     %%%  
-       %%%%%              %%%%%%%%%%%    %%%%%  
-       %%%%   #%%#      %%%%%%%%%%%%%  %%%%%%   
-         %%  %%%%%%   #%%%%%%%%%%%%%%  %%%% 
-            %%%%%%%%% %%%%%%@ %%%%%%%%%     
-           %%%%%%%%%%%%%%%%    %%%%%%%% %  %% 
-          %%%%%%%%%%%%%%%%%     %%%%%%%  %%%%% 
-         %%%%%%%%%%%@%%%%%       %%%%%%%%%%%%%#
-         %%%%%%%%%%  %%%%         %%%%%%%%%%%%%
-        #%%%%%%%%%    %      %    %%%%%%%%%%%%%
-        %%%%%%%%%@         %%%     %%  %%%%%%%#          
-        %%%%%%%%%        %%%%%         %%%%%%%           
-        %%%%%%%%@ @%   %%%%%%%         %%%%%%%           
-         %%%%% %  %%%%%%%%%%%%   @%%  %%%%%%%            
-         %%%%%%   %%%%%%%%%%%%%%%%%   %%%%%%%            
-          %%%%%%   %%%%%%%%%%%%%%%    %%%%%              
-            %%%%%@  %%%%%%%%%%%%%   %%%%%%               
-              %%%%%   %%%%%%%%%  @%%%%%#                 
-                %%%%%%%%    %%%%%%%%%                    
-                      #%%%%%#  
+Vulcan Launchpad is a decentralized platform for launching and managing ICOs (Initial Coin Offerings). This project provides a comprehensive solution for project creators to raise funds and for investors to participate in promising projects.
 
- _     _           _                            ______               __          
-| |   | |         | |                          (_____ \              | |   
-| |   | |  _   _  | |  ____   __ _   _ __       _____) )  ____    ___| |  
-| |   | | | | | | | | /  _ ) / _  | |  _  \    |  ____/  / _  |  /  _  |  
- \ \_/ /  | |_| | | |( (__  ( ( | | | | | |    | |      ( ( | | (  |_| |  
-  \___/    \__,_) |_| \____) \_||_| |_| |_|    |_|       \_||_|  \_____) 
+## Table of Contents
 
- *  https://vulcan.pad
- **/     
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-```
+## Features
 
-## Getting Started
+- Create and manage ICOs
+- Upload project details and media
+- Track contributions and investors
+- View project statistics and progress
+- Secure and decentralized using blockchain technology
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To get started with the project, follow these steps:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/AnyChain2017/vulcan_launchpad.git
+    cd vulcan_launchpad
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Set up environment variables:
+    - Create a `.env` file in the root directory
+    - Add the necessary environment variables (e.g., API keys, database URLs)
 
-## Learn More
+4. Start the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Creating an ICO
 
-## Deploy on Vercel
+1. Navigate to the create page: `/create`
+2. Fill in the project details, upload media, and set fundraising goals
+3. Deploy the ICO smart contract to the blockchain
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Managing an ICO
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-Thanks.
+1. Navigate to the dashboard: `/dashboard`
+2. View project statistics, track contributions, and manage investor relations
+
+### Viewing ICOs
+
+1. Navigate to the live page: `/live`
+2. Browse and participate in active ICOs
+
+## Contributing
+
+We welcome contributions from the community! To contribute, follow these steps:
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/YourFeature`
+3. Make your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
